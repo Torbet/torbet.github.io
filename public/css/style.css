@@ -1,0 +1,132 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.part{
+    height: 100vh;
+    width: 100%;
+}
+
+#top{
+    background-color: #00adb5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    margin-top: auto;
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#subtitle {
+    margin-top: 0.5%;
+    font-weight: 100;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#links {
+    margin-top: 1%;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    height: 2rem;
+    width: 2rem;
+    filter: brightness(0) invert(1);
+}
+
+.icon:hover {
+    height: 2rem;
+    width: 2rem;
+    filter: brightness(0) invert(1);
+    opacity: 0.75;
+}
+
+#arrow {
+    height: 4rem;
+    width: 4rem;
+    margin-top: auto;
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+
+@keyframes example {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-40px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
+}
+
+#second{
+    width: 100%;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 48%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #535353;
+}
+
+.card a:hover {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #535353;
+    background-color: #dadada;
+}
+
+#left a {
+    font-size: 120%;    
+}
+
+#project-list {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#right {
+    
+}
+
+#footer {
+    position: absolute;
+    background-color: #00adb5;
+    height: 7vh;
+    width: 100%;
+    bottom: -100vh;
+}
+
+#footer-title {
+    text-align: center;
+}

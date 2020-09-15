@@ -121,6 +121,14 @@
     width: 100%;
     height: 7vh;
     background-color: #00adb5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-title {
+    color: white;
+    font-size: 3vh;
 }
 
 @media (max-width:700px){

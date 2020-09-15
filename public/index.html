@@ -3,17 +3,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/css?family=Abel&amp;display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-
     <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
-
+    
     <title>Guy Torbet | Portfolio</title>
 </head>
 <body>
-    <div id="top" class="part">
-        <div id="title">Guy Torbet</div>
-        <div id="subtitle">Fullstack Software Developer</div>
+
+    <div id="top">
+        <div class="title">Guy Torbet</div>
+        <div class="subtitle">FULLSTACK SOFTWARE DEVELOPER</div>
         <div id="links">
             <a href="mailto:guy@torbet.co"><img src="./images/mail.svg" class="icon"></a>
             <a href="https://github.com/torbet"><img src="./images/github.svg" class="icon"></a>
@@ -22,32 +23,32 @@
         </div>
         <img src="images/arrow.svg" id="arrow">
     </div>
-    <div id="second">
-        <div id="content" class="part">
-            <div id="left" class="card">
-                <h1 style="text-decoration: underline; text-decoration-color: #00adb5;">Projects</h1>
-                <div id="project-list">
-                    <a href="https://github.com/Torbet/URL-Sortener-V2">URL Shortener</a>
-                    <a href="https://github.com/Torbet/URL-Shortener">URL Shortener (React)</a>
-                    <a href="https://github.com/Torbet/Chess">CLI Chess</a>
-                    <a href="">Global Light Switch</a>
-                    <a href="https://github.com/Torbet/Web-Coords">Web-Based Coordinate Parser</a>
-                    <a href="https://github.com/heoagvfuagvcugav/Physics-Formula-Calculator">Physics Variable Calculator</a>
-                    <a href="https://github.com/heoagvfuagvcugav/WebSocket-App">WebSocket App</a>
-                </div>
-            </div>
-            <div id="right" class="card">
-                <h1 style="text-decoration: underline; text-decoration-color: #00adb5;">Experience</h1>
-                <div id="experience-list">
-                    <p><span style="font-weight: bold;">FreeLancing</span> - I have worked as a freelance software engineer for the past 6 months in order to fund hosting for my personal projects. During this time, I have learned how to effectively make static sites and taylor them to customer demands.</p>
-                    <p><span style="font-weight: bold;">Alpha Data</span> - I had the opportunity to join the Alpha Data team for a few months and work on all aspects of FPGA chips. This allowed me to get an insight into what office culture is like in the tech industry and gave me valuable teamwork skills. I got to work with and learn from many different people, which allowed me to improve my skills in this space.</p>
-                    <p><span style="font-weight: bold;">Open Source</span> - I have followed the work of George Hotz for a few months and was intrigued by his thoughts on the self-driving car problem (using a neural network rather rather than hard-coded rule sets). This lead me to looking at the OpenPilot source code, and then eventually contributing to the project. It was rewarding to work on a project that I felt genuinly passionately about.</p>
-                </div>
+    <div id="bottom">
+        <div class="card">
+            <div class="bottom-title">Projects</div>
+            <div id="project-list" class="list">
+                <a href="https://github.com/Torbet/URL-Sortener-V2">URL Shortener</a>
+                <a href="https://github.com/Torbet/URL-Shortener">URL Shortener (React)</a>
+                <a href="https://github.com/Torbet/Chess">CLI Chess</a>
+                <a href="">Global Light Switch</a>
+                <a href="https://github.com/Torbet/Web-Coords">Web-Based Coordinate Parser</a>
+                <a href="https://github.com/heoagvfuagvcugav/Physics-Formula-Calculator">Physics Variable Calculator</a>
+                <a href="https://github.com/heoagvfuagvcugav/WebSocket-App">WebSocket App</a>
             </div>
         </div>
-        <div id="footer"><h3 id="footer-title">Guy Torbet © 2020</h3></div>
+        <div class="card">
+            <div class="bottom-title">Experience</div>
+            <div id="experience-list" class="list">
+                <p><span style="font-weight: bold;">FreeLancing</span> - I have worked as a freelance software engineer for the past 6 months in order to fund hosting for my personal projects. During this time, I have learned how to effectively make static sites and taylor them to customer demands.</p>
+                <p><span style="font-weight: bold;">Alpha Data</span> - I had the opportunity to join the Alpha Data team for a few months and work on all aspects of FPGA chips. This allowed me to get an insight into what office culture is like in the tech industry and gave me valuable teamwork skills. I got to work with and learn from many different people, which allowed me to improve my skills in this space.</p>
+                <p><span style="font-weight: bold;">Open Source</span> - I have followed the work of George Hotz for a few months and was intrigued by his thoughts on the self-driving car problem (using a neural network rather rather than hard-coded rule sets). This lead me to looking at the OpenPilot source code, and then eventually contributing to the project. It was rewarding to work on a project that I felt genuinly passionately about.</p>
+            </div>
+        </div>
     </div>
-
-    <script src="./js/script.js"></script>
+    <div id="footer"></div>
+    
 </body>
-</html>
+
+<script src="./js/script.js"></script>
+
+</html> 

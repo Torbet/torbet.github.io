@@ -80,7 +80,6 @@
 
 .card {
     width: 48%;
-    height: 98%;
 }
 
 .bottom-title {
@@ -141,5 +140,6 @@
 
     #experience-list {
         margin-bottom: 2vh;
+        overflow: auto;
     }
 }

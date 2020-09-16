@@ -5,6 +5,10 @@
     font-family: 'Abel', sans-serif;
 }
 
+body {
+    background-color: #00adb5;
+}
+
 #top {
     width: 100%;
     height: 100%;

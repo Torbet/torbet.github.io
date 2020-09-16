@@ -139,6 +139,7 @@ body {
 
     .card {
         width: 95%;
+        margin: 0 auto;
     }
 
     #experience-list {
